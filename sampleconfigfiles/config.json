@@ -1,0 +1,15 @@
+[
+    {
+        "localPath": "",
+        "remotePath": "",
+        "user": "",
+        "ip":"",
+        "port": "22",
+        "auth": "pass/key",
+        "files":["file1","file2"],
+        "operation":"upload",
+        "password": true,
+        "execCommand": false,
+        "commands": ["ls -ltr"]
+    }
+]

@@ -1,0 +1,28 @@
+- localPath: ""
+  remotePath: ""
+  user: ""
+  ip: ""
+  port: "22"
+  auth: "password"
+  files:
+    - "file1"
+    - "file2"
+  operation: "upload"
+  password: true
+  execCommand: false
+  commands: ["ls -ltr"]
+
+- localPath: ""
+  remotePath: ""
+  user: ""
+  ip: ""
+  port: "22"
+  auth: "/home/pvtkey.pem"
+  files:
+    - "file1"
+    - "file2"
+    - "file3"
+  operation: "download"
+  password: false
+  execCommand: true
+  commands: ["ll"]
